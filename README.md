@@ -62,7 +62,7 @@ These views are created by `scripts /gold/ddl_gold._views.sql`.
 └── README.md
 ```
 
-> **Note:** The repository directory is currently named `scripts ` with a trailing space. Preserve the name when using file paths, or rename it locally if your tooling does not handle trailing spaces reliably.
+
 
 ## Prerequisites
 
@@ -227,6 +227,3 @@ Both load procedures truncate their target tables before loading. They are there
 - Ensure the SQL Server service account can read the CSV directory.
 - Validate the Silver and Gold quality checks after every full refresh.
 
-## License
-
-No license has been specified for this repository.
